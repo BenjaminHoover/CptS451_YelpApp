@@ -1,0 +1,8 @@
+num=1
+
+files=*.cs ../YelpEngine/*.cs Properties/*.cs
+output=BusinessDetails.exe
+
+builder1=mcs %files -lib:libs
+buildargs1= -pkg:dotnet -r:System.Windows.Forms.dll -r:Npgsql.dll -r:LiveCharts.dll -r:LiveCharts.WinForms.dll -r:LiveCharts.Wpf.dll
+tester=mono %output

@@ -1,0 +1,12 @@
+# build artifacts
+bin
+obj
+lib
+*.exe
+*.dll
+
+data
+
+# visual studio artifacts
+.vs
+packages

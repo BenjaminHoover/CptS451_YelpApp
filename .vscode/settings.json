@@ -1,0 +1,18 @@
+{
+    "pgsql.format.alignColumnDefinitionsInColumns": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "local",
+            "database": "project",
+            "username": "cs451gp",
+            "password": "jkls"
+        }
+    ],
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": false
+}
